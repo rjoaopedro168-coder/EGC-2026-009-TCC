@@ -11,7 +11,6 @@ Firmware para ESP32 com leitura de encoder incremental, teclado matricial 4×4 e
 ## Arquivos
 
 - `EGC_2026_009_Firmware.ino`: código-fonte do protótipo, preparado para upload no Arduino IDE.
-- `Firmware_Original_Wendel.txt`: cópia integral do arquivo de código-fonte recebido do grupo, para referência.
 
 O arquivo `.ino` conserva a lógica original. Foi corrigida **somente a etiqueta de texto do monitor serial** de `Massa (~2350)` para `Massa (~2560)`, correspondente ao valor **já utilizado** pelo cálculo original. Nenhuma fórmula, pino ou rotina foi modificado.
 
